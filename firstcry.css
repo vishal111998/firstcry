@@ -1,0 +1,727 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.round{
+	border-radius: 10px;
+}
+.drop-1{
+	width: 40%;
+	//background-color: black;
+	height: 60px;
+	float: left;
+}
+.drop-2{
+	width: 60%;
+	//background-color: gray;
+	height: 70px;
+	float: left;
+}
+.search{
+	width:140%;
+}
+.stor-drop{
+	width: 16.5%;
+	font-size: 14px;
+	height: 25px;
+	margin-left: 120px;
+}
+.stor-drop ul{
+	list-style: none;
+}
+.stor-drop ul li ul{
+	margin-top:10px;
+}
+.stor-drop ul li ul li{
+	display:none; 
+}
+.stor-drop ul li a{
+	text-decoration: none;
+	color: black;
+	margin-left: 10px;
+}
+.stor-drop ul li ul li:hover{
+	background-color: lightgray;
+}
+.stor-drop ul li:hover ul li{
+	display: block;
+}
+	.b1{
+		width: 7.5%;
+		font-size: 14px;
+	}
+	.b2{
+		width: 10%;
+		font-size: 14px;
+	}
+	.b3{
+		width: 13.5%;
+		font-size: 14px;
+	}
+	.b4{
+		width: 13.3%;
+		font-size: 14px;
+	}
+	.b5{
+		width: 10%;
+		font-size: 14px;
+	}
+	.b6{
+		width: 8%;
+		font-size: 15px;
+		font-family: sans-serif;
+	}
+
+.drop-down{
+	background-color: #ffd400;
+	height: 50px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+}
+	.dropdown{
+		position: relative;
+		width: 14.5%;
+	//		background-color: gray;
+	}
+	.dropdown:hover{
+		cursor: pointer;
+	}
+	.all-categary{
+		font-family: sans-serif;
+		font-size: 14px;
+		margin:15px 0 0 40px;
+		opacity: 0.8;
+	}
+	.dropdown-menu{
+		display: none;
+		width: 1250px;
+		height: 500px;
+	}
+	.dropdown:hover .dropdown-menu{
+		display: block;
+	} 
+
+	.dropdown-list{
+		height: 550px;
+		width: 100%;
+		background-color: gray;
+		margin-top: -55px;
+	}
+
+	/*.drop-down ul{
+		list-style: none;
+	}
+	.drop-down ul li{
+
+	}
+	.drop-down ul li ul li{
+		display: none;
+	}
+	.drop-down ul li :hover ul li{
+		display: block;
+	}*/
+
+	.boy-dropdown{
+		width:7.3%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.boy-dropdown:hover{
+		background-color: white;
+		cursor: pointer;
+	}
+	.boy-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.boy-dropdown:hover .boy-dropdown-menu{
+		display: block;
+	}
+	.boy-dropdown-list{
+		width: 1365px;
+		height: 500px;
+		margin:16px 0 0 -205px;
+		background-color: gray;
+	}
+	.boy-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 13px;
+		text-align: center;	
+		opacity: 0.8;
+
+	}
+
+	/******** Girl Fashiam *******/
+
+	.girl-dropdown{
+		width:8.3%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.girl-dropdown:hover{
+		background-color: white;
+		cursor: pointer;
+	}
+	.girl-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.girl-dropdown:hover .girl-dropdown-menu{
+		display: block;
+	}
+	.girl-dropdown-list	{
+		width: 1365px;
+		height: 500px;
+		margin:18px 0 0 -305px;
+		background-color: gray;
+	}
+	.girl-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 13px;	
+		text-align: center;
+		opacity: 0.8;
+	}
+
+	/******** FOOTWEAR *******/
+
+	.foot-dropdown{
+		width:6.3%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.foot-dropdown:hover{
+		background-color: white;
+		cursor: pointer;
+	}
+	.foot-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.foot-dropdown:hover .foot-dropdown-menu{
+		display: block;
+	}
+	.foot-dropdown-list	{
+		width: 1365px;
+		height: 500px;
+		margin:15px 0 0 -410px;
+		background-color: gray;
+	}
+	.foot-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 13px;	
+		text-align: center;
+		opacity: 0.8;
+	}
+
+	/******** Toy *******/
+
+	.toy-dropdown{
+		width:3.3%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.toy-dropdown:hover{
+		background-color: white;
+		cursor: pointer;
+	}
+	.toy-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.toy-dropdown:hover .toy-dropdown-menu{
+		display: block;
+	}
+	.toy-dropdown-list	{
+		width: 1365px;
+		height: 500px;
+		margin:15px 0 0 -495px;
+		background-color: gray;
+	}
+	.toy-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 13px;	
+		text-align: center;
+		opacity: 0.8;
+	}
+
+	/******** DIAPERING *******/
+
+	.dia-dropdown{
+		width:6.4%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.dia-dropdown:hover{
+		background-color: white;
+		cursor: pointer;
+	}
+	.dia-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.dia-dropdown:hover .dia-dropdown-menu{
+		display: block;
+	}
+	.dia-dropdown-list	{
+		width: 1365px;
+		height: 500px;
+		margin:15px 0 0 -540px;
+		background-color: gray;
+	}
+	.dia-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 13px;	
+		text-align: center;
+		opacity: 0.8;
+	}
+
+
+	/******** GAIR *******/
+
+	.gear-dropdown{
+		width:3.4%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.gear-dropdown:hover{
+		background-color: white;
+		cursor: pointer;
+	}
+	.gear-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.gear-dropdown:hover .gear-dropdown-menu{
+		display: block;
+	}
+	.gear-dropdown-list	{
+		width: 1365px;
+		height: 500px;
+		margin:15px 0 0 -630px;
+		background-color: gray;
+	}
+	.gear-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 13px;	
+		text-align: center;
+		opacity: 0.8;
+	}
+
+
+	/******** FEEDOING *******/
+
+	.feed-dropdown{
+		width:5.4%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.feed-dropdown:hover{
+		background-color: white;
+		cursor: pointer;
+	}
+	.feed-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.feed-dropdown:hover .feed-dropdown-menu{
+		display: block;
+	}
+	.feed-dropdown-list	{
+		width: 1365px;
+		height: 500px;
+		margin:15px 0 0 -675px;
+		background-color: gray;
+	}
+	.feed-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 13px;	
+		text-align: center;
+		opacity: 0.8;
+	}
+
+
+	/******** BATH & SKIN *******/
+
+	.bath-dropdown{
+		width:7%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.bath-dropdown:hover{
+		background-color: white;
+		cursor: pointer;
+	}
+	.bath-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.bath-dropdown:hover .bath-dropdown-menu{
+		display: block;
+	}
+	.bath-dropdown-list	{
+		width: 1365px;
+		height: 500px;
+		margin:15px 0 0 -750px;
+		background-color: gray;
+	}
+	.bath-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 13px;	
+		text-align: center;
+		opacity: 0.8;
+	}
+
+
+	/******** NURSERy *******/
+
+	.nur-dropdown{
+		width:5.7%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.nur-dropdown:hover{
+		background-color: white;
+		cursor: pointer;
+	}
+	.nur-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.nur-dropdown:hover .nur-dropdown-menu{
+		display: block;
+	}
+	.nur-dropdown-list	{
+		width: 1365px;
+		height: 500px;
+		margin:15px 0 0 -845px;
+		background-color: gray;
+	}
+	.nur-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 13px;	
+		text-align: center;
+		opacity: 0.8;
+	}
+
+	/******** MOMS *******/
+
+	.moms-dropdown{
+		width:4%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.moms-dropdown:hover{
+		background-color: white;
+		cursor: pointer;
+	}
+	.moms-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.moms-dropdown:hover .moms-dropdown-menu{
+		display: block;
+	}
+	.moms-dropdown-list	{
+		width: 1365px;
+		height: 500px;
+		margin:15px 0 0 -923px;
+		background-color: gray;
+	}
+	.moms-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 13px;	
+		text-align: center;
+		opacity: 0.8;
+	}
+
+	/******** HEALTH & SEFTY *******/
+
+	.helth-dropdown{
+		width:10%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.helth-dropdown:hover{
+		background-color: white;
+		cursor: pointer;
+	}
+	.helth-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.helth-dropdown:hover .helth-dropdown-menu{
+		display: block;
+	}
+	.helth-dropdown-list	{
+		width: 1365px;
+		height: 500px;
+		margin:15px 0 0 -979px;
+		background-color: gray;
+	}
+	.helth-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 13px;	
+		text-align: center;
+		opacity: 0.8;
+	}
+
+
+/******** BOUTIQUES *******/
+
+	.bouti-dropdown{
+		width:7%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.bouti-dropdown:hover{
+		background-color: white;
+		cursor: pointer;
+	}
+	.bouti-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.bouti-dropdown:hover .bouti-dropdown-menu{
+		display: block;
+	}
+	.bouti-dropdown-list	{
+		width: 1365px;
+		height: 500px;
+		margin:15px 0 0 -1115px;
+		background-color: gray;
+	}
+	.bouti-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 13px;	
+		text-align: center;
+		opacity: 0.8;
+	}
+
+
+
+	/******** carter's *******/
+
+	.cart-dropdown{
+		width:8%;
+		height: 50px;
+		background-color: #6881ed;
+		margin-left: 5px;
+	}
+	.cart-dropdown:hover{
+		cursor: pointer;
+	}
+
+	.cart-dropdown-menu{
+		display: none;
+		height: 300px;
+		width: 30%;
+	}
+	.cart-dropdown:hover .cart-dropdown-menu{
+		display: block;
+	}
+	.cart-dropdown-list	{
+		width: 1365px;
+		height: 500px;
+		margin:15px 0 0 -845px;
+		background-color: gray;
+	}
+	.cart-fashian{
+		margin-top:11px;
+		font-family: sans-serif;
+		font-size: 17px;	
+		text-align: center;
+		opacity: 0.9;
+	}
+
+
+/************ Carousel ******************/
+.carousel{
+	width: 100%;
+	height: 400px;
+	float: left;
+	z-index: -2;
+}
+.carousel-item img{
+	width: 100%;
+	height: 400px;
+}
+
+
+/******************** Body ******************/
+.body{
+	width: 100%;
+	background-color:	#F0F0F0;
+	float: left;
+	margin-top: 10px;
+	z-index: -1
+}
+.primium-boutiques{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+	line-height: 70px;
+}
+
+.card-body{
+	height: 80px;
+}
+	.card-head-2{
+		font-size: 14px;
+		line-height: 10px;
+		color: gray;
+	}
+	.card-head-1{
+		text-decoration: none;
+		line-height: 10px;
+		color: black;
+	}
+
+.col-md-4:hover{
+	margin-top: -2px;
+	//transition: margin-top 0.1s;
+}
+
+.row-1{
+	position: fixed;
+	height: 480px;
+	//background-color: red;
+}
+.row-2{
+	position: fixed;
+	height: 480px;
+	//background-color: red;
+}
+.card:hover{
+	box-shadow: 5px 5px 10px 1.5px lightgray;
+}
+
+
+
+/*********************** VIEW ALL ********************/
+.view{
+	margin-top: 20px;
+}
+	.view-1{
+		height: 75px;
+		width: 47%;
+		margin-left: 30px;
+	}
+		.view-1 p{
+			margin-top:22px;
+		}
+	.view-2{
+		height: 75px;
+		width: 47%;
+		margin-left: 20px;
+	}
+		.view-2 p{
+			margin-top:22px;
+		}
+
+
+
+
+/******************* Summer Collection ********************/
+
+.summer-colection{
+	width: 100%;
+	height: 500px;
+	background-color: red;
+	position: relative;
+}
+	.summer-colection-1{
+		width: 92%;
+		height: auto;
+		position: absolute;
+		top:40px;
+		font-size: 20px;
+		font-family: sans-serif;
+		//background-color: gray;
+	}
+	.summer{
+		//margin-left: -30px;	
+		background-color: red;
+	}
+	.summer1{
+		//margin-left: -10px;
+	}
+	
+
+
+/************* Marquee *******************/
+
+.marquee{
+	height: 60px;
+}
+
+.main{
+	//position: relative;
+}
+
+.footer{
+	height: 50px;
+	width: 100%;
+	//position: absolute;
+	position: fixed;
+	top:575px;
+	border-top:1px solid lightgray;
+	background-color: #F0F0F0;
+}
+
+		.shortlist{
+			width:10%;
+			height: 50px;
+			color: gray;
+			border-right: 1px solid lightgray;
+		}
+		.quick{
+			width: 10%;
+			color: gray;
+			border-right: 1px solid lightgray;
+		}
+		.track{
+			width:10%;
+			color: gray;
+			border-right: 1px solid lightgray;
+		}
+		.touch{
+			width:10%;
+			color: gray;
+			border-right: 1px solid lightgray;
+		}
+		.fran{
+			width:15%;
+			color: gray;
+			border-right: 1px solid lightgray;
+		}
+		.preschool{
+			width:15%;
+			border-right: 1px solid lightgray;
+			color: gray;
+		}
